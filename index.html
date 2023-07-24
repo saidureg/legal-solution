@@ -54,7 +54,7 @@
 </head>
 
 <body>
-    <header class="max-w-screen-lg mx-auto">
+    <header class="max-w-screen-lg mx-auto mb-10 md:mb-28">
         <!-- navbar -->
         <nav>
             <div class="navbar py-10">
@@ -94,27 +94,106 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div>
-            <div class="hero bg-hero-bg bg-contain">
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="md:py-20 lg:max-w-2xl">
-                        <h1 class="mb-6 text-7xl text-white font-eb-garamond font-extrabold">
-                            We Provide Effective Legal Solutions</h1>
-                        <p class="mb-8 text-[#E7E7E7] font-popping">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
-                        </p>
-                        <div class="flex gap-6 items-center font-popping">
-                            <input class="py-5 pl-5 lg:pr-72 rounded-lg text-[#A0A0A0]" type="text" placeholder="Search your services">
-                            <button class="py-4 text-xl font-semibold px-8 border-0 rounded-lg bg-primary-color text-white">Search</button>
-                        </div>                      
+        <!-- min-h-[calc(100vh - 200px)] -->
+        <div class="hero bg-hero-bg bg-contain">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="md:py-20 lg:max-w-2xl">
+                    <h1 class="mb-6 text-7xl text-white font-eb-garamond font-extrabold">
+                        We Provide Effective Legal Solutions</h1>
+                    <p class="mb-8 text-[#E7E7E7] font-popping">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                    <div class="flex gap-6 items-center font-popping">
+                        <input class="py-5 pl-5 lg:pr-72 rounded-lg text-[#A0A0A0]" type="text"
+                            placeholder="Search your services">
+                        <button
+                            class="py-4 text-xl font-semibold px-8 border-0 rounded-lg bg-primary-color text-white">Search</button>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <main>
-
+    <main class="max-w-screen-lg mx-auto mb-10 md:mb-28">
+        <!-- legal practice  -->
+        <section>
+            <div class="md:w-[570px] lg:w-[650px] mx-auto text-center">
+                <h3 class="text-[#414040] text-4xl font-extrabold font-eb-garamond">The Legal Practice Area</h3>
+                <p class="font-popping text-[#707070] mt-6 mb-12">There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- divide-x divide-y divide-[#E7E7E7] -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first card -->
+                <div class="pt-14 border-r border-b border-[#E7E7E7] px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="/images/business.png" alt="business" />
+                    </div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Business Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="pt-14 border-r border-b border-[#E7E7E7] px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="/images/criminal.png" alt="business" />
+                    </div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Criminal Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+                <!-- third card -->
+                <div class="pt-14 border-b border-[#E7E7E7] px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="/images/child.png" alt="business" />
+                    </div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Child Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+                <!-- fourth card -->
+                <div class="pt-14 border-r border-[#E7E7E7] px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center">
+                        <img src="/images/education.png" alt="business" /></div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Education Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+                <!-- five card -->
+                <div class="pt-14 border-r border-[#E7E7E7] px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center"><img src="/images/divorce.png" alt="business" /></div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Divorce Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+                <!-- six card -->
+                <div class="pt-14 px-5 pb-8 bg-gradient-to-r from-white to-white hover:from-[#F3F3F3] hover:to-[#F3F3F3]">
+                    <div class="flex justify-center"><img src="/images/tax.png" alt="business" /></div>
+                    <div class="card-body text-center space-y-4">
+                        <h2 class=" text-[#414040] font-eb-garamond font-extrabold text-3xl">Tax Law</h2>
+                        <p class="text-[#707070] font-popping">There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <span><i class="fa-solid fa-circle-arrow-right fa-xl text-primary-color mt-6"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
