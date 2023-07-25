@@ -73,10 +73,10 @@
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a>Home</a></li>
-                            <li><a>Services</a></li>
-                            <li><a>Cases</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact Us</a></li>
+                            <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                            <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                            <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                            <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
                         </ul>
                     </div>
                     <img src="./images/logo2.png" alt="">
@@ -85,14 +85,14 @@
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-description-color">
                         <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Cases</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn bg-primary-color text-white">Free Consultation</a>
+                    <a class="btn bg-primary-color text-white rounded-lg">Free Consultation</a>
                 </div>
             </div>
         </nav>
@@ -212,28 +212,122 @@
             </div>
 
             <!-- slider -->
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="/images/slider-1.jpg" class="w-full" />
+            <div class="carousel w-full h-[500px]">
+                <!-- first slider -->
+                <div id="slide1" class="carousel-item relative w-full bg-slider1-bg bg-no-repeat bg-cover">
+
+                    <!-- content -->
+                    <div class="py-10 px-3 md:max-w-lg lg:max-w-2xl space-y-4 absolute md:top-16  md:left-28 lg:left-44">
+                        <div class="flex justify-center">
+                            <img src="./images/Ellipse 1.png" alt="">
+                        </div>
+                        <h1 class="mb-6 text-2xl text-white font-eb-garamond font-extrabold text-center">
+                            Awlad Hossain
+                        </h1>
+                        <p class="text-center text-white">
+                            UIX Designer
+                        </p>
+                        <p class="mb-8 text-[#E7E7E7] font-popping text-center">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                            piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                            McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                            obscure
+                            Latin words, consectetur.
+                        </p>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                            <a href="#slide1" class="btn btn-xs">1</a>
+                            <a href="#slide2" class="btn btn-xs">2</a>
+                            <a href="#slide3" class="btn btn-xs">3</a>
+                        </div>
+                    </div>
+                    <!-- end content -->
+
+
+                    <!-- <img src="/images/slider-1.jpg" class="w-full" /> -->
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="/images/slider-2.jpg" class="w-full" />
+                <!-- second slider -->
+                <div id="slide2" class="carousel-item relative w-full bg-slider2-bg bg-no-repeat bg-cover">
+
+                    <!-- content -->
+                    <div class="py-10 px-3 md:max-w-lg lg:max-w-2xl space-y-4 absolute md:top-16  md:left-28 lg:left-44">
+                        <div class="flex justify-center">
+                            <img src="./images/Ellipse 1.png" alt="">
+                        </div>
+                        <h1 class="mb-6 text-2xl text-white font-eb-garamond font-extrabold text-center">
+                            Awlad Hossain
+                        </h1>
+                        <p class="text-center text-white">
+                            UIX Designer
+                        </p>
+                        <p class="mb-8 text-[#E7E7E7] font-popping text-center">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                            piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                            McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                            obscure
+                            Latin words, consectetur.
+                        </p>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                            <a href="#slide1" class="btn btn-xs">1</a>
+                            <a href="#slide2" class="btn btn-xs">2</a>
+                            <a href="#slide3" class="btn btn-xs">3</a>
+                        </div>
+                    </div>
+                    <!-- end content -->
+
+
+                    <!-- <img src="/images/slider-1.jpg" class="w-full" /> -->
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="/images/slider-3.jpg" class="w-full" />
+                <!-- third slider -->
+                <div id="slide3" class="carousel-item relative w-full bg-slider3-bg bg-no-repeat bg-cover">
+
+                     <!-- content -->
+                     <div class="py-10 px-3 md:max-w-lg lg:max-w-2xl space-y-4 absolute md:top-16  md:left-28 lg:left-44">
+                        <div class="flex justify-center">
+                            <img src="./images/Ellipse 1.png" alt="">
+                        </div>
+                        <h1 class="mb-6 text-2xl text-white font-eb-garamond font-extrabold text-center">
+                            Awlad Hossain
+                        </h1>
+                        <p class="text-center text-white">
+                            UIX Designer
+                        </p>
+                        <p class="mb-8 text-[#E7E7E7] font-popping text-center">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                            piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                            McClintock,
+                            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                            obscure
+                            Latin words, consectetur.
+                        </p>
+                        <div class="flex justify-center w-full py-2 gap-2">
+                            <a href="#slide1" class="btn btn-xs">1</a>
+                            <a href="#slide2" class="btn btn-xs">2</a>
+                            <a href="#slide3" class="btn btn-xs">3</a>
+                        </div>
+                    </div>
+                    <!-- end content -->
+
+                    <!-- <img src="/images/slider-3.jpg" class="w-full" /> -->
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+
+                
             </div>
         </section>
         <!-- faq section -->
@@ -374,7 +468,7 @@
 
     </main>
 
-    <footer class="footer p-10 md:py-28 md:px-80 bg-neutral text-neutral-content">
+    <footer class="footer p-10 md:py-28 lg:px-80 bg-neutral text-neutral-content">
         <div class="space-y-8">
             <img src="./images/logo.png" alt="">
             <p>There are many variations of <br>passages of Lorem Ipsum <br>available, but the majority have
@@ -382,7 +476,7 @@
             </p>
         </div>
         <div>
-            <span class="footer-title">Usefully Link</span>
+            <span class="footer-title">Useful Link</span>
             <a class="link link-hover mt-8 mb-4">Homes</a>
             <a class="link link-hover">About Us</a>
             <a class="link link-hover mt-4 mb-4">Cases</a>
@@ -403,7 +497,7 @@
                     <span class="label-text">Enter your email address</span>
                 </label>
                 <div class="relative">
-                    <input type="text" placeholder="Email Address" class="input input-bordered rounded-lg w-full pr-4" />
+                    <input type="text" placeholder="Email Address" class="input input-bordered rounded-lg w-full" />
                     <!-- <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button> -->
                     <span class="btn btn-primary border-0 absolute top-0 right-0 rounded-lg bg-primary-color"><i
                             class="fa-solid fa-location-arrow fa-xl"></i></span>
